@@ -1,0 +1,2 @@
+pygame == 1.7.1
+moviepy == 0.2.1

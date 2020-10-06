@@ -91,6 +91,7 @@ def getPlayers():
     Midfielder("Jovetic",10,[15,5,12,15,10],"AS Monaco"),
     Forward("Falcao",9,[15,5,14,17,10],"AS Monaco"),
     Forward("Keita",11,[14,2,16,15,11],"AS Monaco"),
+
     Goalie("Handandovic",1,[18,10],"Inter Milan"),
     Defender("Ansladi",3,[13,14,13,13,15],"Inter Milan"),
     Defender("Skrinar",37,[6,17,13,11,13],"Inter Milan"),
@@ -102,6 +103,7 @@ def getPlayers():
     Forward("Perisic",44,[14,7,16,14,8],"Inter Milan"),
     Forward("Icardi",9,[17,5,14,14,8],"Inter Milan"),
     Forward("Candreva",87,[15,6,14,16,10],"Inter Milan"),
+
     Goalie("Lloris",1,[17,10],"Tottenham Hotspurs"),
     Defender("Rose",3,[12,15,15,13,16],"Tottenham Hotspurs"),
     Defender("Vertonghen",5,[11,16,12,15,14],"Tottenham Hotspurs"),
@@ -113,6 +115,7 @@ def getPlayers():
     Forward("Son Heung-Min",7,[14,6,15,15,8],"Tottenham Hotspurs"),
     Forward("Kane",10,[18,10,13,15,11],"Tottenham Hotspurs"),
     Forward("Alli",20,[15,10,11,16,12],"Tottenham Hotspurs"),
+
     Goalie("Zoet",1,[15,11],"PSV Eindhoven"),
     Defender("Viergever",4,[10,14,11,11,11],"PSV Eindhoven"),
     Defender("Dumfries",22,[13,11,13,12,12],"PSV Eindhoven"),
@@ -124,6 +127,7 @@ def getPlayers():
     Forward("Lozano",11,[14,5,15,15,6],"PSV Eindhoven"),
     Forward("De Jong",9,[15,5,14,17,10],"PSV Eindhoven"),
     Forward("Romero",10,[12,4,11,13,12],"PSV Eindhoven"),
+
     Goalie("Ospina",1,[17,17],"Napoli"),
     Defender("Albiol",33,[10,14,11,12,13],"Napoli"),
     Defender("Koulibaly",26,[6,17,15,12,15],"Napoli"),
@@ -135,6 +139,7 @@ def getPlayers():
     Forward("Mertens",10,[16,5,16,16,12],"Napoli"),
     Forward("Isigne",10,[17,6,15,17,10],"Napoli"),
     Forward("Callejon",10,[14,8,15,16,12],"Napoli"),
+
     Goalie("Alisson",1,[17,17],"Liverpool"),
     Defender("Robertson",26,[14,14,15,14,13],"Liverpool"),
     Defender("Van Dijk",4,[5,14,14,13,17],"Liverpool"),
@@ -146,6 +151,7 @@ def getPlayers():
     Forward("Mane",10,[16,9,18,16,10],"Liverpool"),
     Forward("Firmino",9,[16,13,18,14,13],"Liverpool"),
     Forward("Salah",11,[17,8,18,16,9],"Liverpool"),
+
     Goalie("Buffon",1,[18,10],"Paris Saint Germain"),
     Defender("Kurzawa",20,[13,11,15,14,10],"Paris Saint Germain"),
     Defender("Marquinhos",5,[10,16,14,14,14],"Paris Saint Germain"),
@@ -157,6 +163,7 @@ def getPlayers():
     Forward("Cavani",9,[17,8,16,14,14],"Paris Saint Germain"),
     Forward("Mbappe",7,[18,2,18,20,7],"Paris Saint Germain"),
     Forward("Di Maria",11,[17,6,16,16,11],"Paris Saint Germain"),
+
     Goalie("Ter Stegen",1,[17,17],"Barcelona"),
     Defender("Alba",18,[14,12,17,15,15],"Barcelona"),
     Defender("Umtiti",23,[7,16,14,14,14],"Barcelona"),
@@ -168,6 +175,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Barcelona"),
     Forward("Suarez",9,[19,9,15,17,17],"Barcelona"),
     Forward("Messi",10,[20,6,14,20,11],"Barcelona"),
+
     Goalie("Ter Stegen",1,[17,17],"Red Star Belgrade"),
     Defender("Alba",18,[14,12,17,15,15],"Red Star Belgrade"),
     Defender("Umtiti",23,[7,16,14,14,14],"Red Star Belgrade"),
@@ -179,6 +187,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Red Star Belgrade"),
     Forward("Suarez",9,[19,9,15,17,17],"Red Star Belgrade"),
     Forward("Messi",10,[20,6,14,20,11],"Red Star Belgrade"),
+
     Goalie("Ter Stegen",1,[17,17],"Porto FC"),
     Defender("Alba",18,[14,12,17,15,15],"Porto FC"),
     Defender("Umtiti",23,[7,16,14,14,14],"Porto FC"),
@@ -190,6 +199,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Porto FC"),
     Forward("Suarez",9,[19,9,15,17,17],"Porto FC"),
     Forward("Messi",10,[20,6,14,20,11],"Porto FC"),
+
     Goalie("Neur",1,[17,17],"Bayern Munich"),
     Defender("Alaba",18,[14,12,17,15,15],"Bayern Munich"),
     Defender("Hummels",23,[7,16,14,14,14],"Bayern Munich"),
@@ -201,6 +211,7 @@ def getPlayers():
     Forward("Ribery",14,[17,9,14,18,11],"Bayern Munich"),
     Forward("Lewandowski",9,[19,9,15,17,17],"Bayern Munich"),
     Forward("Robben",10,[20,6,14,20,11],"Bayern Munich"),
+
     Goalie("Ter Stegen",1,[17,17],"Galatasary"),
     Defender("Alba",18,[14,12,17,15,15],"Galatasary"),
     Defender("Umtiti",23,[7,16,14,14,14],"Galatasary"),
@@ -212,6 +223,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Galatasary"),
     Forward("Suarez",9,[19,9,15,17,17],"Galatasary"),
     Forward("Messi",10,[20,6,14,20,11],"Galatasary"),
+
     Goalie("Ter Stegen",1,[17,17],"Schalke 04"),
     Defender("Alba",18,[14,12,17,15,15],"Schalke 04"),
     Defender("Umtiti",23,[7,16,14,14,14],"Schalke 04"),
@@ -223,6 +235,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Schalke 04"),
     Forward("Suarez",9,[19,9,15,17,17],"Schalke 04"),
     Forward("Messi",10,[20,6,14,20,11],"Schalke 04"),
+
     Goalie("Ter Stegen",1,[17,17],"Ajax"),
     Defender("Alba",18,[14,12,17,15,15],"Ajax"),
     Defender("Umtiti",23,[7,16,14,14,14],"Ajax"),
@@ -234,6 +247,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Ajax"),
     Forward("Suarez",9,[19,9,15,17,17],"Ajax"),
     Forward("Messi",10,[20,6,14,20,11],"Ajax"),
+
     Goalie("Ter Stegen",1,[17,17],"Benfica"),
     Defender("Alba",18,[14,12,17,15,15],"Benfica"),
     Defender("Umtiti",23,[7,16,14,14,14],"Benfica"),
@@ -245,6 +259,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Benfica"),
     Forward("Suarez",9,[19,9,15,17,17],"Benfica"),
     Forward("Messi",10,[20,6,14,20,11],"Benfica"),
+
     Goalie("Ter Stegen",1,[17,17],"AEK Athens"),
     Defender("Alba",18,[14,12,17,15,15],"AEK Athens"),
     Defender("Umtiti",23,[7,16,14,14,14],"AEK Athens"),
@@ -256,6 +271,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"AEK Athens"),
     Forward("Suarez",9,[19,9,15,17,17],"AEK Athens"),
     Forward("Messi",10,[20,6,14,20,11],"AEK Athens"),
+
     Goalie("Ederson",1,[17,17],"Manchester City"),
     Defender("Mendy",23,[14,12,17,15,15],"Manchester City"),
     Defender("Laporte",14,[7,16,14,14,14],"Manchester City"),
@@ -267,6 +283,7 @@ def getPlayers():
     Forward("Sterling",7,[17,9,14,18,11],"Manchester City"),
     Forward("Kun Aguero",10,[19,9,15,17,17],"Manchester City"),
     Forward("Marhez",26,[20,6,14,20,11],"Manchester City"),
+
     Goalie("Ter Stegen",1,[17,17],"Shaktar Donetsk"),
     Defender("Alba",18,[14,12,17,15,15],"Shaktar Donetsk"),
     Defender("Umtiti",23,[7,16,14,14,14],"Shaktar Donetsk"),
@@ -278,6 +295,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Shaktar Donetsk"),
     Forward("Suarez",9,[19,9,15,17,17],"Shaktar Donetsk"),
     Forward("Messi",10,[20,6,14,20,11],"Shaktar Donetsk"),
+
     Goalie("Ter Stegen",1,[17,17],"Olyimpque Lyon"),
     Defender("Alba",18,[14,12,17,15,15],"Olyimpque Lyon"),
     Defender("Umtiti",23,[7,16,14,14,14],"Olyimpque Lyon"),
@@ -289,6 +307,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Olyimpque Lyon"),
     Forward("Suarez",9,[19,9,15,17,17],"Olyimpque Lyon"),
     Forward("Messi",10,[20,6,14,20,11],"Olympique Lyon"),
+
     Goalie("Courtois",1,[17,17],"Real Madrid"),
     Defender("Marcelo",18,[14,12,17,15,15],"Real Madrid"),
     Defender("Varane",23,[7,16,14,14,14],"Real Madrid"),
@@ -300,6 +319,7 @@ def getPlayers():
     Forward("Isco Alcarcon",14,[17,9,14,18,11],"Real Madrid"),
     Forward("Benzema",9,[19,9,15,17,17],"Real Madrid"),
     Forward("Bale",10,[20,6,14,20,11],"Real Madrid"),
+
     Goalie("Ter Stegen",1,[17,17],"Pizen"),
     Defender("Alba",18,[14,12,17,15,15],"Pizen"),
     Defender("Umtiti",23,[7,16,14,14,14],"Pizen"),
@@ -311,6 +331,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Pizen"),
     Forward("Suarez",9,[19,9,15,17,17],"Pizen"),
     Forward("Messi",10,[20,6,14,20,11],"Pizen"),
+
     Goalie("Ter Stegen",1,[17,17],"AS Roma"),
     Defender("Alba",18,[14,12,17,15,15],"AS Roma"),
     Defender("Umtiti",23,[7,16,14,14,14],"AS Roma"),
@@ -322,6 +343,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"AS Roma"),
     Forward("Suarez",9,[19,9,15,17,17],"AS Roma"),
     Forward("Messi",10,[20,6,14,20,11],"AS Roma"),
+
     Goalie("Ter Stegen",1,[17,17],"Hoffenheim"),
     Defender("Alba",18,[14,12,17,15,15],"Hoffenheim"),
     Defender("Umtiti",23,[7,16,14,14,14],"Hoffenheim"),
@@ -333,6 +355,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Hoffenheim"),
     Forward("Suarez",9,[19,9,15,17,17],"Hoffenheim"),
     Forward("Messi",10,[20,6,14,20,11],"Hoffenheim"),
+
     Goalie("Ter Stegen",1,[17,17],"CSKA Moscow"),
     Defender("Alba",18,[14,12,17,15,15],"CSKA Moscow"),
     Defender("Umtiti",23,[7,16,14,14,14],"CSKA Moscow"),
@@ -343,6 +366,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"CSKA Moscow"),
     Forward("Suarez",9,[19,9,15,17,17],"CSKA Moscow"),
     Forward("Messi",10,[20,6,14,20,11],"CSKA Moscow"),
+
     Goalie("Szczesny",1,[17,17],"Juventus"),
     Defender("Alex Sandro",18,[14,12,17,15,15],"Juventus"),
     Defender("Chellini",23,[7,16,14,14,14],"Juventus"),
@@ -354,6 +378,7 @@ def getPlayers():
     Forward("Ronaldo",14,[17,9,14,18,11],"Juventus"),
     Forward("Mandzukic",9,[19,9,15,17,17],"Juventus"),
     Forward("Dybala",10,[20,6,14,20,11],"Juventus"),
+
     Goalie("De Gea",1,[17,17],"Manchester United"),
     Defender("Shaw",23,[14,12,17,15,15],"Manchester United"),
     Defender("Lindelof",2,[7,16,14,14,14],"Manchester United"),
@@ -365,6 +390,7 @@ def getPlayers():
     Forward("Martial",11,[17,9,14,18,11],"Manchester United"),
     Forward("Lukaku",9,[19,9,15,17,17],"Manchester United"),
     Forward("Alexis",7,[20,6,14,20,11],"Manchester United"),
+
     Goalie("Ter Stegen",1,[17,17],"Valencia"),
     Defender("Alba",18,[14,12,17,15,15],"Valencia"),
     Defender("Umtiti",23,[7,16,14,14,14],"Valencia"),
@@ -376,6 +402,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Valencia"),
     Forward("Suarez",9,[19,9,15,17,17],"Valencia"),
     Forward("Messi",10,[20,6,14,20,11],"Valencia"),
+
     Goalie("Ter Stegen",1,[17,17],"Young Boys"),
     Defender("Alba",18,[14,12,17,15,15],"Young Boys"),
     Defender("Umtiti",23,[7,16,14,14,14],"Young Boys"),
@@ -387,6 +414,7 @@ def getPlayers():
     Forward("Coutinho",14,[17,9,14,18,11],"Young Boys"),
     Forward("Suarez",9,[19,9,15,17,17],"Young Boys"),
     Forward("Messi",10,[20,6,14,20,11],"Young Boys"),
+
     Goalie("Ter Stegen",1,[17,17],"Lokomotiv Moscow"),
     Defender("Alba",18,[14,12,17,15,15],"Lokomotiv Moscow"),
     Defender("Umtiti",23,[7,16,14,14,14],"Lokomotiv Moscow"),
@@ -397,7 +425,8 @@ def getPlayers():
     Midfielder("Rackitic",4,[16,10,13,16,11],"Lokomotiv Moscow"),
     Forward("Coutinho",14,[17,9,14,18,11],"Lokomotiv Moscow"),
     Forward("Suarez",9,[19,9,15,17,17],"Lokomotiv Moscow"),
-    Forward("Messi",10,[20,6,14,20,11],"Lokomotiv Moscow")]
+    Forward("Messi",10,[20,6,14,20,11],"Lokomotiv Moscow")
+    ]
     
     
     
@@ -424,7 +453,3 @@ def generateGame():
         team.getTeamAvg()
     return teams
 
-    
-
-        
-    

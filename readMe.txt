@@ -5,7 +5,8 @@ Project Description:
 -Play Foosball matches and win game
 
 How To Run
--Run Screens.py (if pygame and moviepy are sucessflly installed)
+-Pip Install requiremnts.tx
+-Run Screens.py 
 -Cut and Paste all images from image file into same directory as python programs
 
 Installing Libraries
